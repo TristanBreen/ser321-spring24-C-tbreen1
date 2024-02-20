@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-02-19T22:07:36" hostname="TRISTANXPS" time="0.01">
+  <properties/>
+  <testcase name="echoCorrect" classname="Testing" time="0.006"/>
+  <testcase name="typeWrong" classname="Testing" time="0.003"/>
+  <testcase name="echoErrors" classname="Testing" time="0.001"/>
+  <system-out><![CDATA[Echo request: {"data":"whooooo","type":"echo"}
+Echo request: {"data1":"whooooo","type":"echo"}
+Echo request: {"data":33,"type":"echo"}
+Echo request: {"data":true,"type":"echo"}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
